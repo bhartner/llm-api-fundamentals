@@ -49,7 +49,7 @@ Objectives:
 
 1. **Navigate to the project folder and create a virtual environment**:
 
-   **⚠️ CRITICAL**: All scripts and tests MUST be run from the project folder. Do not run them from parent directories or other locations.
+   **⚠️ CRITICAL**: All scripts and tests MUST be run from the project and tests folders. Do not run them from parent directories or other locations.
 
    ```bash
    # First, navigate to the assignment folder
