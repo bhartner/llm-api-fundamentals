@@ -1,0 +1,26 @@
+[project]
+name = "llm_api_client"
+version = "0.1.0"
+description = "OpenAI API Usage and Multi-turn Conversations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0.0",
+    "pytest>=7.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+#[tool.pytest.ini_options]
+#testpaths = ["."]
+#python_files = "test*.py"
+#python_classes = "Test*"
+#python_functions = "test_*"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test*.py"
+# ...
